@@ -53,7 +53,7 @@
   },
   "scripts": {
     "edit": "swagger project edit",
-    "start": "swagger project start",
+    "start": "nodemon --watch . app.js",
     "lint": "eslint .",
     "test": "npm run lint && NODE_ENV=test swagger project test"
   }

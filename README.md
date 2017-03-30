@@ -55,7 +55,7 @@ sequelize db:migrate
 NODE_ENV=test sequelize db:migrate
 ```
 
-That's it! Now you should be able to run automated application tests using `npm test` command, or start API server running locally with `nodemon` (by default listening on port 10010).
+That's it! Now you should be able to run automated application tests using `npm test` command, or start API server running locally with `npm start` (by default listening on port 10010).
 
 ## Application structure
 
